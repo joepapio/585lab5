@@ -1,0 +1,15 @@
+Package: FARSday
+Type: Package
+Title: Filter FARS Dataset by Day of Week
+Version: 0.1.0
+Date: March 30, 2017
+Author: Jo Papio, Chaohui Yuan, Yue Zhang
+Maintainer: Jo Papio <joepapio@iastate.edu>
+Description: This R package filters a subset of the FARS database by the day of the week, then plots the number of accidents by hour and whether or not any of the drivers involved were under the influence of alcohol.
+License: GPL-3
+Depends:
+    R(>= 2.10),
+    tidyverse (>= 1.0)
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 6.0.1
